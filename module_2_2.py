@@ -1,8 +1,8 @@
-first = 321
+first = int(input('Введите число'))
 print(first)
-second = 654
+second = int(input('Введите число'))
 print(second)
-third = 987
+third = int(input('Введите число'))
 print(third)
 if first == second == third:
     print(3)
@@ -10,4 +10,3 @@ elif first == second or first == third or second == third:
     print(2)
 elif third != second != first:
     print(0)
-
